@@ -1,8 +1,29 @@
+# Environments
 venv/
-expense_tracker.db
+.venv/
+env/
+ENV/
+
+# Python
 __pycache__/
+*.py[cod]
+*$py.class
 *.pyc
 *.pyo
 .env
+.envrc
+
+# Database
+expense_tracker.db
+*.sqlite3
+
+# OS and IDE
 .DS_Store
-.claude/plans/
+__MACOSX/
+.vscode/
+.idea/
+.ruff_cache/
+tempCodeRunnerFile.py
+
+# Claude Code
+.claude/
